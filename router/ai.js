@@ -31,7 +31,7 @@ router.post('/upload', (req, res) => {
             });
         }
         gm(files['image'].path)
-        .modulate(100, 500)
+        .modulate(100, 150)
         .channel('Red')
         .write(files['image'].path + 'bk', e => {
             console.log(e);
