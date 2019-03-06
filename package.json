@@ -12,6 +12,7 @@
     "baidu-aip-sdk": "^2.3.9",
     "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.4",
-    "formidable": "^1.2.1"
+    "formidable": "^1.2.1",
+    "gm": "^1.23.1"
   }
 }
