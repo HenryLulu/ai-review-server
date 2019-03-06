@@ -19,7 +19,7 @@ var text = '来了来了，树叶们高兴地喊着，忽然，下起了雨，�
 // });
 
 
-var image = fs.readFileSync('./img/source.jpg').toString('base64');
+var image = fs.readFileSync('./img/9ecc1334a9c2b201867599729.jpg').toString('base64');
 
 clientOCR.handwriting(image).then(data => {
     const text = data.words_result.map(item => item.words).join('');
